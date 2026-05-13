@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+  <meta charset="UTF-8" />
+  <title>LinkedIn AI Detector</title>
+  <link rel="stylesheet" href="popup.css" />
+</head>
+<body>
+  <div class="popup-container">
+    <header class="popup-header">
+      <div class="popup-logo">🕵️</div>
+      <h1 class="popup-title">AI Detector</h1>
+      <p class="popup-subtitle">LinkedIn Post Analyzer</p>
+    </header>
+    <form id="apiKeyForm" class="popup-form" autocomplete="off">
+      <label for="apiKeyInput" class="form-label">Klucz API Google Gemini</label>
+      <div class="input-group">
+        <input type="password" id="apiKeyInput" class="form-input" placeholder="AIzaSy..." spellcheck="false" />
+        <button type="button" id="toggleVisibility" class="btn-toggle" title="Pokaż/ukryj klucz">👁️</button>
+      </div>
+      <button type="submit" id="saveBtn" class="btn-save">💾 Zapisz klucz</button>
+    </form>
+    <div id="statusMessage" class="status-message hidden"></div>
+    <footer class="popup-footer">
+      <p>Klucz wygenerujesz w <a href="https://aistudio.google.com/app/apikey" target="_blank">Google AI Studio</a></p>
+      <p class="version">v0.1.0 PoC</p>
+    </footer>
+  </div>
+  <script src="popup.js"></script>
+</body>
+</html>
