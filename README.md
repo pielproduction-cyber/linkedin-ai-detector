@@ -2,7 +2,12 @@
 
 **LinkedIn AI Detector** to lekkie rozszerzenie do przeglądarki Chrome, które pomaga zidentyfikować posty wygenerowane przez sztuczną inteligencję bezpośrednio w Twoim feedzie na LinkedIn. Projekt powstał jako Proof of Concept (PoC) wykorzystujący najnowszą technologię **Google Gemini API**.
 
-![Przykładowe działanie](example.png)
+![Przykładowe działanie](ai_detector.png)
+
+## 📺 Demo Wideo
+Obejrzyj rozszerzenie w akcji:
+[Pobierz lub obejrzyj demo wideo (Linkedin_AI_Detector_nagrywka.mp4)](Linkedin_AI_Detector_nagrywka.mp4)
+
 
 ## 🚀 Główne Funkcje
 - **Integracja Natywna**: Dodaje przycisk "🕵️ Analizuj AI" bezpośrednio pod postami na LinkedIn.
