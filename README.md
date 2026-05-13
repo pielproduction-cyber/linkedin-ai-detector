@@ -11,11 +11,11 @@ Obejrzyj rozszerzenie w akcji:
 
 ## 🚀 Główne Funkcje
 - **Integracja Natywna**: Dodaje przycisk "🕵️ Analizuj AI" bezpośrednio pod postami na LinkedIn.
-- **Analiza w Czasie Rzeczywistym**: Wykorzystuje model Gemini (np. 1.5 Flash) do oceny autentyczności tekstu.
-- **Wizualne Wyniki**: Czytelne oznaczenia (Badge) informujące o prawdopodobieństwie użycia AI:
-  - ✅ **Low**: Wygląda na napisane przez człowieka.
-  - 🤔 **Medium**: Budzi pewne wątpliwości.
-  - 🤖 **High**: Wysokie prawdopodobieństwo generacji przez AI.
+- **Analiza w Czasie Rzeczywistym**: Wykorzystuje model **Gemini 3.1 Flash** do oceny autentyczności tekstu.
+- **Wizualne Wyniki**: Czytelne oznaczenia informujące o prawdopodobieństwie użycia AI w skali **0-100**:
+  - ✅ **0-30**: Wygląda na napisane przez człowieka.
+  - 🤔 **31-69**: Budzi pewne wątpliwości.
+  - 🤖 **70-100**: Wysokie prawdopodobieństwo generacji przez AI.
 - **Prywatność**: Klucz API jest przechowywany lokalnie w przeglądarce i nie jest przesyłany do zewnętrznych serwerów (poza samym Google Gemini API).
 
 ## 🛠️ Technologia
